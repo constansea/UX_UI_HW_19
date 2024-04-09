@@ -28,7 +28,8 @@ h1{
 }
 
 h5{
-    color: #008B83 !important;
+    font-family: "Poppins", sans-serif;
+    color: #00746D !important;
     font-size: 21px !important;
     font-weight: 500;
     line-height: 40px !important;
@@ -168,6 +169,13 @@ img.casestudyimg {
 
 .secondButton {
     margin-top: 30px;
+}
+
+.btn-outline-primary {
+    color:#005B55;
+    border-color: #005B55;
+    border-radius: 16px;
+    --bs-btn-hover-bg: #005b55;
 }
 
 h5.finalTitle {

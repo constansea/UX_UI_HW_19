@@ -1,13 +1,20 @@
 .MyLogo {
-    font-family: poppins;
-    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
     font-weight: 500;
 }
+
+.nav-item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
 body, html{
     margin: 0;
 }
 
 .bg-body-tertiary {
+    --bs-bg-opacity: 0 !important;
     padding: 0px 20px !important;
 }
 
@@ -55,7 +62,7 @@ li {
 }
 
 .profileimg{
-    background: url("../images/shimaenaga\ copy.jpg") no-repeat;
+    background: url("../images/53150306_10157194378697853_7575992572619784192_o.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     width: auto;
@@ -64,14 +71,17 @@ li {
 }
 
 .firstsection {
+    display: flex;
+    justify-content: space-between;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-col-9,.biocontent {
+.biocontent {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-right: 50px;
 }
 
 .h5titles {

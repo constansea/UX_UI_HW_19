@@ -22,7 +22,7 @@ h1{
 
 h5{
     color: #008B83 !important;
-    font-size: 18px;
+    font-size: 18px !important;
     font-weight: 500;
     line-height: 40px !important;
 }
@@ -37,7 +37,7 @@ h4 {
 
 p{
     font-family: "Poppins", Sans-serif;
-    font-size: 16px;
+    font-size: 16px !important;
     line-height: 1.9em;
     margin-bottom: 0 !important;
 }
@@ -55,8 +55,12 @@ li {
 }
 
 .profileimg{
-    width: 100%;
+    background: url("../images/shimaenaga\ copy.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
     border-radius: 100%;
+    aspect-ratio: 1/1;
 }
 
 .firstsection {
@@ -169,7 +173,7 @@ h5.finalTitle {
 }
 
 .secondButton {
-    color: #008B83 !important;
+    color: #008B83;
 }
 
 @media only screen and (max-width: 600) {

@@ -29,7 +29,7 @@ h1{
 
 h5{
     color: #008B83 !important;
-    font-size: 18px !important;
+    font-size: 21px !important;
     font-weight: 500;
     line-height: 40px !important;
 }
@@ -150,10 +150,16 @@ li {
     font-size: 18px;
 }
 
-.cacasestudyimg {
-    background-image: url("../images/shimaenaga\ copy.jpg") no-repeat;
-    background-size: cover;
-    width: auto;
+
+.csrow {
+    height: 400px;
+    margin-top: 20px;
+}
+
+img.casestudyimg {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .finalsection {
@@ -172,8 +178,13 @@ h5.finalTitle {
     padding: 100px 0px 10px 0px;
 }
 
-.caseStudyContainer {
+.cscontentbg {
     background-color: #def0ee;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.caseStudyContainer {
     height: 400px;
 }
 
@@ -183,6 +194,10 @@ h5.finalTitle {
 
 .secondButton {
     color: #008B83;
+}
+
+footer {
+    margin-top: 50px;
 }
 
 @media only screen and (max-width: 600) {

@@ -1,0 +1,178 @@
+.MyLogo {
+    font-family: poppins;
+    font-size: 32px;
+    font-weight: 500;
+}
+body, html{
+    margin: 0;
+}
+
+.bg-body-tertiary {
+    padding: 0px 20px !important;
+}
+
+h1{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 800 !important;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+}
+
+h5{
+    color: #008B83 !important;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px !important;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 800 !important;
+    line-height: 30px !important;
+    color: black;
+    padding-bottom: 20px;
+}
+
+p{
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    line-height: 1.9em;
+    margin-bottom: 0 !important;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 70px;
+    padding-left: 0px !important;
+}
+li {
+    display: flex;
+    align-items: center;
+}
+
+.profileimg{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.firstsection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+col-9,.biocontent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h5titles {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.background-container {
+    background-color: #def0ee; 
+  }
+
+.container {
+    max-width: 1320px; /* Set your desired max-width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container if needed */
+}
+.MyIcons {
+    width: 40px;
+    padding-right: 15px;
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap:wrap ;
+    max-width: 1320px;
+    justify-content: center;
+    height: 200px;
+}
+
+.clientLogos {
+    max-width: 260px
+}
+
+.sectionTwo {
+    padding: 80px 0px 80px 0px;
+}
+.sectionThree {
+    padding: 100px 0px 100px 0px;
+}
+.sectionFour {
+    padding: 100px 0px 100px 0px;
+}
+
+.firstButton {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+
+.industries {
+    width: 300px;
+    font-size: 18px;   
+}
+
+.skillsList ul{
+    padding-left: 0px;
+    font-size: 18px;
+    line-height: 60px;   
+}
+
+.skillsList li{    
+    display: flex;
+    align-items: center;
+    width: 410px;
+    min-width: 315px;
+    font-size: 18px;
+}
+
+img.casestudyimg {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.finalsection {
+    padding: 50px 0px 30px 0px;
+}
+
+.secondButton {
+    margin-top: 30px;
+}
+
+h5.finalTitle {
+    font-size: 28px;
+}
+
+.sectionFive {
+    padding: 100px 0px 10px 0px;
+}
+
+.caseStudyContainer {
+    background-color: #def0ee;
+    height: 400px;
+}
+
+.caseStudyContent {
+    padding: 25px;
+}
+
+.secondButton {
+    color: #008B83 !important;
+}
+
+@media only screen and (max-width: 600) {
+    /*Your CSS styles for your grid template are here */
+    
+}

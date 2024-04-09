@@ -63,7 +63,6 @@ li {
 
 .profileimg{
     background: url("../images/53150306_10157194378697853_7575992572619784192_o.jpg") no-repeat;
-    background-position: center;
     background-size: cover;
     width: auto;
     border-radius: 100%;
@@ -151,10 +150,10 @@ li {
     font-size: 18px;
 }
 
-img.casestudyimg {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
+.cacasestudyimg {
+    background-image: url("../images/shimaenaga\ copy.jpg") no-repeat;
+    background-size: cover;
+    width: auto;
 }
 
 .finalsection {
